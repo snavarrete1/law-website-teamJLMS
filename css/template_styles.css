@@ -1,5 +1,8 @@
-
-
+* {                  /**/
+  margin: 0;                  /**/
+  padding: 0;                  /**/
+  font-family: 'Source Sans Pro', sans-serif;                  /**/
+}
 body, html {
   background-image: url(images/nza_background.jpg);
   font-family: 'Source Sans Pro', sans-serif;
@@ -43,7 +46,7 @@ div.center header {
   display: grid;
   /* grid-auto-columns: max-content; */
   width: auto;
-  height: 165px;
+  height: 135px;                  /**/
   margin: 50px ;
   grid-template-rows: 100px;
   grid-template-areas: 
@@ -112,22 +115,24 @@ header ul {
 }
 
 header li {
+  padding-right: 5%;                  /**/
   border-right:1px solid rgb(135, 146, 157);
 }
 
 header li:last-child {
+  padding: 0;                  /**/
   border-right: none;
 }
 
 header li a {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */                  /**/
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   display: block;
   color: black;
   margin: 0 auto;
-  padding: 14px 16px;
+  padding: 0px 16px;                  /**/
   text-decoration: none;
 }
 
@@ -203,7 +208,7 @@ footer li:last-child {
 }
 
 footer li a {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */                  /**/
   font-weight: 500;
   text-transform: uppercase;
   display: block;
@@ -226,5 +231,4 @@ footer.active {
 .copyright h4{
   text-align: center;
   color: rgba(135, 146, 157, .5);
-
-}
+}                  /**/
